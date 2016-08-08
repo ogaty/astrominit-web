@@ -1,11 +1,13 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 <h1>覗いてみよう、君の中の宇宙を。</h1>
-<h2>ホロスコープ作成ソフト microcosm horoscope</h2>
+<div class="container">
+<h2 class="section-header">microcosm</h2>
+<h2 class="subsection">次世代ホロスコープ作成ソフト</h2>
 <div class="aboutbox">
     <h3>ソフト紹介</h3>
     <div class="aboutbox-text">
@@ -74,35 +76,26 @@
             一覧から見つからない緯度経度もgoogleから検索して入力することができます。
         </div>
     </div>
-    <div class="featurebox-single">
-        <div class="featurebox-single__icon">
-        </div>
-        <div class="featurebox-single__title">
-            複数円対応
-        </div>
-        <div class="featurebox-single__body">
-            五重円まで様々な表示が可能です。
-        </div>
-    </div>
 </div>
 
 <div class="comparebox">
     <table class="comparetable">
         <tr>
             <th></th>
-            <th>microcosmLite</th>
             <th>microcosm</th>
-            <th>microcosmPro</th>
-            <th>microcosmMac</th>
+            <th>microcosm for Windows10</th>
+            <th>microcosm Pro</th>
+            <th>microcosm for Mac</th>
         </tr>
         <tr>
             <td>プラットフォーム</td>
-            <td>windows全般</td>
-            <td>windows10</td>
-            <td>windows10</td>
-            <td>MacOS X</td>
+            <td class="comparetable-cell_center">windows全般</td>
+            <td class="comparetable-cell_center">windows10</td>
+            <td class="comparetable-cell_center">windows10</td>
+            <td class="comparetable-cell_center">MacOS X</td>
         </tr>
     </table>
+</div>
 </div>
 
 </body>
