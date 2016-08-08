@@ -1,0 +1,47 @@
+// @import "node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+body {
+    margin: 0;
+}
+h1 {
+    text-align: center;
+}
+.clearfix:after {
+    content: " ";
+    display: table;
+    clear: both;
+}
+.section-header {
+    text-align: center;
+}
+.subsection {
+    text-align: center;
+    font-size: 0.9em;
+}
+.container {
+    width: 1080px;
+    margin: 0 auto;
+}
+.featurebox-single {
+    float: left;
+    width: 33%;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    box-sizing: border-box;
+}
+.featurebox-single__title {
+    text-align: center;
+    font-weight: bold;
+}
+.comparebox {
+    background: #f1f1f1;
+}
+.comparetable {
+    width: 100%;
+}
+.comparetable-cell_center {
+    text-align: center;
+}
+
+
