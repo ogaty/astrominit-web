@@ -1,0 +1,13 @@
+.content {
+  max-width: 990px; }
+
+.header h1 {
+    font-size: 2em;
+}
+
+@media (min-width: 450px) {
+    .header h1 {
+        font-size: 3em;
+    }
+}
+/*# sourceMappingURL=mchelp.css.map */

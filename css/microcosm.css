@@ -1,0 +1,253 @@
+body {
+  margin: 0;
+  line-height: 1.5;
+  color: #333333; }
+
+h1 {
+  text-align: center;
+  margin: 0px 0px 10px; }
+
+h2 {
+  text-align: center;
+  margin: 0px 0px 15px;
+  font-family: serif;
+  font-style: italic;
+  font-size: 1.7em; }
+
+.lightbox {
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.7);
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 20;
+  padding-top: 30px;
+  box-sizing: border-box; }
+  .lightbox img {
+    display: block;
+    margin: auto;
+    max-width: 90%; }
+  .lightbox .caption {
+    margin: 15px auto;
+    width: 50%;
+    text-align: center;
+    font-size: 1em;
+    line-height: 1.5;
+    font-weight: 700;
+    color: #eee; }
+
+.cover {
+  width: 100%;
+  background: url(/img/microcosm_kv.jpg) no-repeat center;
+  background-size: cover; }
+  .cover .cover-inner {
+    position: relative;
+    text-align: center;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.2);
+    height: 100%; }
+
+.cover-text {
+  position: relative;
+  top: 63%;
+  font-size: 12px;
+  font-family: serif; }
+
+.catchcopy {
+  font-size: 16px; }
+
+.abstract {
+  text-align: center;
+  line-height: 3.5; }
+
+.btn-wrap {
+  margin: 12px; }
+  .btn-wrap .btn {
+    width: 200px;
+    margin: 10px;
+    padding: 8px 20px;
+    color: #f05279;
+    border: 2px solid #f05279;
+    text-decoration: none;
+    -webkit-transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    transition: background-color 0.2s ease-out, color 0.2s ease-out;
+    font-weight: bold; }
+  .btn-wrap .btn:hover {
+    background: #f05279;
+    color: #fff;
+    -webkit-transition: background-color 0.3s ease-out, color 0.3s ease-out;
+    transition: background-color 0.3s ease-out, color 0.3s ease-out; }
+
+.feature {
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap; }
+  .feature .item {
+    width: 100%; }
+
+@media screen and (min-width: 64em) {
+  .feature .item {
+    width: 33.3333%; } }
+
+.item {
+  padding: 12px;
+  box-sizing: border-box; }
+  .item .item-inner {
+    border: 2px solid #ef571b;
+    padding: 8px;
+    min-height: 12em; }
+  .item .item-inner .head {
+    text-align: center;
+    font-weight: bold;
+    border-bottom: 1px solid #ef8e1b; }
+  .item .item-inner .body {
+    margin-top: 1em; }
+
+.icon {
+  font-size: 3em;
+  color: #f05279; }
+
+.center {
+  text-align: center; }
+
+.section {
+  padding-top: 20px;
+  padding-bottom: 30px; }
+
+.color {
+  background: #f2f2f2; }
+
+.color2 {
+  background: #f8f8f8; }
+
+.section.moon {
+  background: url(/img/moon.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+.section.planet {
+  background: url(/img/planet.jpg) no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+  color: #fff;
+  padding-top: 0px;
+  padding-bottom: 0px; }
+
+.section.planet a {
+  color: #ccddff; }
+
+.section .overlay {
+  background: rgba(0, 0, 0, 0.3);
+  padding-top: 20px;
+  padding-bottom: 30px; }
+
+.section-inner {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 10px;
+  box-sizing: border-box; }
+
+.imgs {
+  width: 100%;
+  text-align: center;
+  display: -webkit-box;
+  display: flex;
+  flex-wrap: wrap; }
+  .imgs .image-border {
+    width: 100%;
+    padding: 5px;
+    box-sizing: border-box; }
+  .imgs .image-border-inner {
+    border: 3px solid #ccc;
+    min-height: 170px;
+    padding-top: 15px; }
+  .imgs .image-border img {
+    width: 100%;
+    max-width: 200px; }
+
+@media screen and (min-width: 64em) {
+  .imgs .image-border {
+    width: 33.3333%; } }
+
+dt {
+  font-weight: bold; }
+
+dt.lineup {
+  margin-top: 4px;
+  border-bottom: 1px dotted #ef571b; }
+
+.dl {
+  border: 2px solid #ef571b;
+  padding: 12px;
+  margin-bottom: 1em; }
+
+.dl h3 {
+  margin-top: 0px;
+  text-decoration: underline; }
+
+.dl-link {
+  text-align: right; }
+
+.faq {
+  margin: 8px 0px 4px; }
+
+.footer {
+  padding: 15px 0px;
+  text-align: center;
+  background: #333333;
+  color: #fff; }
+
+#page-top {
+  position: fixed;
+  bottom: 14px;
+  right: 20px;
+  z-index: 10; }
+
+#page-top a {
+  text-decoration: none;
+  width: 50px;
+  padding: 4px 0;
+  color: #f05279;
+  border: 2px solid #f05279;
+  font-size: 1.4em;
+  text-align: center;
+  display: block;
+  -webkit-transition: background-color 0.2s ease-out, color 0.2s ease-out;
+  transition: background-color 0.2s ease-out, color 0.2s ease-out; }
+
+#page-top a:hover {
+  text-decoration: none;
+  background: #f05279;
+  color: #fff;
+  -webkit-transition: background-color 0.3s ease-out, color 0.3s ease-out;
+  transition: background-color 0.3s ease-out, color 0.3s ease-out; }
+
+@media (min-width: 540px) {
+  br.sp {
+    display: none; }
+  .cover-text {
+    position: relative;
+    top: 63%;
+    font-size: 28px;
+    font-family: serif; }
+  .section-inner {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box; } }
+
+@media (min-width: 840px) {
+  .section-inner {
+    width: 800px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+    box-sizing: border-box; } }
+
+/*# sourceMappingURL=microcosm.css.map */
